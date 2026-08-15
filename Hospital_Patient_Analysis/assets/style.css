@@ -1,0 +1,327 @@
+/* ===============================
+   FONT
+================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,
+body,
+[class*="css"]{
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+/* ===============================
+   MAIN APP
+================================== */
+
+.stApp{
+
+background:
+linear-gradient(
+135deg,
+#DDD2C5 0%,
+#D2C4B5 35%,
+#C7B8A8 100%
+);
+
+color:#2F2F2F;
+
+}
+
+/* ===============================
+   CONTAINER
+================================== */
+
+.block-container{
+
+padding-top:1.5rem;
+padding-left:2.2rem;
+padding-right:2.2rem;
+padding-bottom:2rem;
+
+}
+
+/* ===============================
+   SIDEBAR
+================================== */
+
+section[data-testid="stSidebar"]{
+
+background:#CEC0B2;
+
+border-right:1px solid #B9AA9A;
+
+}
+
+/* ===============================
+   BUTTONS
+================================== */
+
+.stButton>button{
+
+background:#D97706;
+
+color:white;
+
+border:none;
+
+border-radius:14px;
+
+height:50px;
+
+font-weight:600;
+
+transition:.25s;
+
+}
+
+.stButton>button:hover{
+
+background:#B45309;
+
+transform:translateY(-2px);
+
+}
+
+/* ===============================
+   STREAMLIT METRICS
+================================== */
+
+[data-testid="stMetric"]{
+
+background:#F9F6F2;
+
+padding:18px;
+
+border-radius:18px;
+
+border:1px solid #D9CBBE;
+
+box-shadow:
+0 8px 25px rgba(0,0,0,.08);
+
+}
+
+/* ===============================
+   HEADINGS
+================================== */
+
+h1{
+
+color:#2F2F2F;
+
+font-weight:700;
+
+}
+
+h2{
+
+color:#3A322C;
+
+}
+
+h3{
+
+color:#4B433D;
+
+}
+
+/* ===============================
+   TEXT
+================================== */
+
+p{
+
+color:#5C544E;
+
+}
+
+/* ===============================
+   HORIZONTAL LINE
+================================== */
+
+hr{
+
+border-color:#CDBEAF;
+
+}
+
+/* ===============================
+   SCROLLBAR
+================================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#BCA996;
+
+border-radius:20px;
+
+}
+/* ==========================================
+HERO
+========================================== */
+
+.hero-container{
+
+padding-top:25px;
+
+}
+
+.badge{
+
+background:#F6D6A8;
+
+padding:8px 18px;
+
+border-radius:50px;
+
+font-size:14px;
+
+font-weight:600;
+
+color:#8A5200;
+
+display:inline-block;
+
+margin-bottom:18px;
+
+}
+
+.hero-title{
+
+font-size:52px;
+
+line-height:1.1;
+
+margin-bottom:20px;
+
+font-weight:700;
+
+color:#2D2D2D;
+
+}
+
+.hero-subtitle{
+
+font-size:19px;
+
+line-height:1.8;
+
+color:#5B534E;
+
+margin-bottom:30px;
+
+}
+
+/* ==========================================
+INFO CARD
+========================================== */
+
+.info-card{
+
+background:#FDFBF9;
+
+padding:28px;
+
+border-radius:20px;
+
+border:1px solid #D8C9BA;
+
+box-shadow:0 12px 25px rgba(0,0,0,.06);
+
+min-height:300px;
+
+}
+
+.info-card h2{
+
+margin-bottom:20px;
+
+}
+
+.info-card table{
+
+font-size:17px;
+
+line-height:2.2;
+
+}
+
+.info-card td{
+
+padding:6px;
+
+}
+/* ==========================================
+MODEL CARD
+========================================== */
+
+.model-card{
+
+background:#FDFBF9;
+
+padding:30px;
+
+border-radius:20px;
+
+border:1px solid #D8C9BA;
+
+box-shadow:0 12px 25px rgba(0,0,0,.06);
+
+margin-top:20px;
+
+margin-bottom:20px;
+
+}
+
+.model-card h2{
+
+margin-bottom:18px;
+
+}
+
+.model-card p{
+
+font-size:17px;
+
+line-height:1.8;
+
+color:#5A534E;
+
+}
+
+/* ==========================================
+PLOTLY CONTAINER
+========================================== */
+
+.js-plotly-plot{
+
+background:#FDFBF9;
+
+border-radius:20px;
+
+padding:10px;
+
+}
+
+/* ==========================================
+STREAMLIT INFO BOXES
+========================================== */
+
+[data-testid="stAlert"]{
+
+background:#FDFBF9;
+
+border:1px solid #E3D6C8;
+
+border-radius:18px;
+
+}

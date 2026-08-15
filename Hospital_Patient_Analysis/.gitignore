@@ -1,6 +1,50 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+
+# Python
 venv/
+.venv/
+env/
 __pycache__/
-.ipynb_checkpoints/
+**/__pycache__/
 *.pyc
-*.db
+*.pyo
+*.pyd
+
+# ML temporary output
+catboost_info/
+**/catboost_info/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Environment
 .env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old Streamlit
+.streamlit/
+
+# Large unused ML model
+notebooks/decision_tree_model.pkl

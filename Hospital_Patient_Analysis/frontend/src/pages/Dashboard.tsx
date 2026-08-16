@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import Footer from "../components/Footer";
 import {
   Activity,
@@ -23,7 +23,7 @@ import {
 } from "../components/Charts";
 
 const Dashboard = () => {
-  const navigate = useNavigate();
+  
 
   const [datasetOpen, setDatasetOpen] = useState(false);
 

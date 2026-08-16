@@ -1,4 +1,4 @@
-import { Activity, Heart, Mail } from "lucide-react";
+import { Heart} from "lucide-react";
 
 const Footer = () => {
   return (
